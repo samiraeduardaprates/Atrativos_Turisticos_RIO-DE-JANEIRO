@@ -54,12 +54,8 @@ O desenvolvimento da interface seguiu as melhores práticas de desenvolvimento f
 
 ## 📂 Estrutura de Arquivos
 
-```text
-atrativos-rio/
-├── assets/
-│   ├── css/
-│   │   └── style.css          # Folha de estilo principal
-│   ├── images/                # Imagens dos atrativos (Cristo, Pão de Açúcar, Museu do Amanhã)
-│   └── media/                 # Arquivos de vídeo e mídia local
-├── index.html                 # Estrutura principal da aplicação
-└── README.md                  # Documentação do projeto
+# Folha de estilo principal
+# Imagens dos atrativos (Cristo, Pão de Açúcar, Museu do Amanhã)
+# Arquivos de vídeo e mídia local
+# Estrutura principal da aplicação
+# Documentação do projeto
