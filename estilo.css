@@ -1,0 +1,123 @@
+body{
+    background-color: #0077CC;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+    font-size: 5em;
+    color: #124d14;
+    background-color: #FFB300;
+    padding: 20px;
+    border-style: groove;
+    border-color: rgb(221, 218, 14);
+    box-shadow: 5px 5px 10px rgb(240, 225, 94);
+    text-shadow: 2px 2px 5px gray;
+}
+h2{
+    text-align: center;
+    color: #124d14;
+    margin: 3em;
+    padding: 0px;
+    border-style: groove;
+    border-color: rgb(221, 218, 14);
+    box-shadow: 5px 5px 10px rgb(240, 225, 94);
+}
+img{
+    width: 450px;
+    height: 350px;
+    border: 5;
+    border-style: groove;
+    border-color: rgb(233, 230, 89);
+    box-shadow: 5px 5px 10px rgb(240, 225, 94);
+    transition: 0.3s;
+}
+img:hover{
+    transform: translateY(-10px);
+}
+
+
+.principa{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.coluna1{
+    flex-grow: 1;
+    margin: 1%;
+    background-color: #f1cf7e;
+    padding: 20px;
+    border-style: groove;
+    border-color: rgb(221, 218, 14);
+    box-shadow: 5px 5px 10px rgb(240, 225, 94);
+    border-radius: 20px;
+
+}
+.coluna2{
+    flex-grow: 1;
+    margin: 1%;
+    background-color: #f1cf7e;
+    padding: 20px;
+    border-style: groove;
+    border-color: rgb(221, 218, 14);
+    box-shadow: 5px 5px 10px rgb(240, 225, 94);
+    border-radius: 20px;
+
+}
+.coluna3{
+    flex-grow: 1;
+    background-color: #f1cf7e;
+    padding: 20px;
+    border-style: groove;
+    border-color: rgb(221, 218, 14);
+    box-shadow: 5px 5px 10px rgb(240, 225, 94);
+    border-radius: 20px;
+}
+p{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+.saiba{
+    text-align: center;
+    font-size: 0,5em;
+    color: #124d14;
+    background-color: #FFB300;
+    padding: 10px;
+    border-style: groove;
+    border-color: rgb(221, 218, 14);
+    box-shadow: 5px 5px 10px rgb(240, 225, 94);
+}
+.link{
+    transition: 0.4s;
+
+}
+.link:hover{
+    transform: translateY(-5px);
+
+}
+
+.video{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.fazer{
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    color: #124d14;
+    background-color: #FFB300;
+    padding: 10px;
+    border-style: groove;
+    border-color: rgb(221, 218, 14);
+    box-shadow: 5px 5px 10px rgb(240, 225, 94);
+}
+.rodap{
+    width: 100%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    margin-top: 30px;
+    clear: both;
+}
